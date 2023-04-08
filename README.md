@@ -1,12 +1,9 @@
 # Action Repo
 
-___
-
-
 ## Helpful links:
 
-#### if you're wondering how this ReadMe was made, I'm using something called 
-- [Markdown (md files)](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+#### if you're wondering how this ReadMe was made, I'm using something called... 
+- [MarkDown (md files)](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 - [MarkDown Guide 2](https://www.markdownguide.org/basic-syntax/)
 
 

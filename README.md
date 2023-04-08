@@ -7,12 +7,18 @@
 - [Markdown (md files)](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 - [MarkDown Guide 2](https://www.markdownguide.org/basic-syntax/)
 
-=================================================
+
+___
+
 
 ### *HTML*
 
 - [Tags overview](https://www.w3schools.com/tags/)
-=================================================
+
+
+___
+
+
 
 ### *CSS*
 
@@ -22,7 +28,11 @@
 - [Flexbox Froggy Game](https://flexboxfroggy.com/)
 
 - [Grid Garden Game](https://cssgridgarden.com/)
-=================================================
+
+
+
+___
+
 
 ### *Javascript*
 

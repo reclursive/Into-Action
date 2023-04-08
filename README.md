@@ -1,5 +1,7 @@
-# Challenges Repo
-=================
+# Action Repo
+
+___
+
 
 ## Helpful links:
 
@@ -24,7 +26,7 @@ ___
 
 - [CSS Intro](https://www.w3schools.com/css/css_intro.asp)
 
-##### the following is for after W3 schools have been read and completed:
+##### the following is for after W3 schools chapters/activites have all been read and completed:
 - [Flexbox Froggy Game](https://flexboxfroggy.com/)
 
 - [Grid Garden Game](https://cssgridgarden.com/)

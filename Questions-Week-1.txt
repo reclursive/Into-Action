@@ -1,0 +1,45 @@
+1. Below, please verbally describe HTML's role within a website or 
+application's structure. 
+
+
+
+Please describe the main elements of an HTML document.
+
+
+
+
+Action: 
+In your HTML file for this week (in file tree already), please create a 
+standard HTML file that is linked to this weeks styles, Include three Lorem 
+Ipsum paragraphs. At least two divs. A Title. Headers. Footers. An unordered 
+list. An ordered list. Extra credit if you can include a photo.
+
+
+
+2. Where does an Id or Class go within an html tag and which one has
+precedence in terms of attributes? If a tag has both, which attribute 
+will show?
+
+
+Action:
+Get through as many of the W3 school CSS tutorial activities as you can.
+
+Begin to customize your html file a bit using classes and ids.
+
+
+
+3. Name three of the biggest differences between ES6 and previous 
+versions of JS
+
+What is a console log and how can it be used to help us?
+
+Action: 
+Using concatenation and a variable, in your JS file for this week 
+(in file tree already), please console log:
+
+-Hello my name is {{name}}
+
+Bonus points if you can put it in a function that is invoked with the
+name as a parameter.
+
+

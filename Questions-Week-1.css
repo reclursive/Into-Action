@@ -1,8 +1,12 @@
+
+body {
+background-image: url("media/POS.png");
+}
+
 .bookList {
     color: midnightblue;
 }
 
 #specialListItem {
     color: paleturquoise;
-
 }

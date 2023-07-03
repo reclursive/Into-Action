@@ -142,7 +142,7 @@ const greeting = (formality, timeDay) => {
 
     if((formality === "job fair" || formality === "interview" || formality === "meeting professor") && timeDay === "morning"){
         console.log("Good morning")
-    }x
+    }
 
     else if(formality === "friends" && timeDay === "afternoon"){
         console.log("what's up")

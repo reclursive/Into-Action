@@ -39,24 +39,33 @@ const scores = []
 
 // console.log(scores[0])
 
-///== === =
-
-// =        Setting a value to something
-
-//below totally different because they are checks
-// == loosy goosy
-// === YOU CAN"T SIT WITH USSSSSS
+///== === = 
 
 
-// == looser equals (1 = "1")
-// ===  STRICT equal (down to data type)
+
+
 // = Assignment operator (not used for conditionals, used for ASSIGNING)
+// =       Setting a value to something
+
 
 
 // comparison Operators 
 
+//below totally different because they are checks
+// == loosy goosy
+// == looser equals (1 = "1")
+
+
+// === YOU CAN"T SIT WITH USSSSS
+// ===  STRICT equal (down to data type)
+
+
+
+//AND AND OR 
+
 // && both have to be true
 // || one has to be true
+
 
 
 //INDEXES IN ARRAYS
@@ -66,7 +75,9 @@ const scores = []
 //access anything within an array using [BRACKET NOTATION]
 // console.log(scores[1]+scores[3])
 
-//concatenation combining 
+
+
+//concatenation combining data and strings
 
 // console.log(kerstinJoe + " is Data")
 
@@ -110,7 +121,7 @@ const users = [user1, user2, user3]
 
 // if sunshine true status = "ill"
 
-function checkStatus(sunshine){
+const checkStatus = (sunshine) => {
     let status = ""
 
     if (sunshine === true){
@@ -125,10 +136,29 @@ function checkStatus(sunshine){
     console.log("this is the status " + status)
 }
 
-checkStatus(true)
+// checkStatus(true)
 
+const greeting = (formality, timeDay) => {
 
+    if((formality === "job fair" || formality === "interview" || formality === "meeting professor") && timeDay === "morning"){
+        console.log("Good morning")
+    }x
 
+    else if(formality === "friends" && timeDay === "afternoon"){
+        console.log("what's up")
+    }
+
+    else if(formality === "interview" && timeDay === "evening"){
+        console.log("Good evening")
+    }
+
+    else {
+        console.log("none of the above")
+    }
+
+} 
+
+greeting("job fair", "afternoon")
 
 
 

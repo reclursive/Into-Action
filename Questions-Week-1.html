@@ -1,36 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="Questions-Week-1.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Questions-Week-1.css" />
-    <title>Books</title>
+    <title>Document</title>
 </head>
 <body>
-    <title>Books and things</title>
-        <p>
-            Lorem ipsum dolor sit amet consectetur 
-            adipisicing elit. Dolorum cumque ratione inventore 
-            accusamus omnis nesciunt quaerat delectus aliquam v
-            elit voluptate quae, doloribus libero totam quam voluptatum
-            suscipit molestiae laborum minus?
-        </p>
-        <div class="bookList">
-            <ol>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li id="specialListItem">Parable of the Sower
-                </li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ol>
-        </div>
-    
+    <!--headings-->
+		<h1>heading one</h1>
+		<h2>heading two</h2>
+		<h3>heading three</h2>
+		<h4>heading four</h2>
+		<h5>heading five</h2>
+		<h6>heading six</h2>
+
+		<!--Paragraph-->
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+		<!-- Lists -->
+		<ul>
+			<li>this</li>
+			<li>is</li>
+			<li>a</li>
+			<li>list</li></ul>>
+
+		<ol>
+			<li>this</li>
+			<li>is</li>
+			<li>another</li>
+			<li>list</li></ol>
+
+		<!-- Table -->
+			<table>
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Email</th>
+						<th>Age</th>
+					</tr>
+				</thead>
+			</table>
+
+			<tbody>
+			<tr>
+			<td> kerstin</td>
+			<td>kerstin@email.com</td>
+			<td>25</td>
+			</tr>
+			</tbody>
+				<br>
+				<h2>TABLES ARE FOR TABULAR DATA ONLY!! DO NOT USE TABLES FOR LAYOUTS, ALWAYS USE CSS</h2><br>
+				
+
+		<!--Forms-->
+				<form action="process.php" method="POST">
+					<div>
+					<label>First Name</label>
+					<input type="text" name="firstName" placeholder="Type first name"></div>
+</div>
+					<div><br>
+
+					<label>Last Name</label>
+					<input type="text" name="lastName"></div>
+
+					<div><br>
+
+					<label>Email</label>
+					<input type="email" name="Email"></div>
+
+					<br>
+					<div>
+						<label>Message</label>
+						<textarea name="message"></textarea>
+					</div>
+					<br>
+					<div>
+						<label>Gender</label>
+						<select name="Gender">
+							<option value="male">Male</option>
+							<option value="female">Female</option>
+							<option value="other">Other</option>
+						</select>
+					</div>
+					<br>
+					<div>
+						<label>Birthday:</label>
+						<input type="date" name="birthday"></div>
+						<br>
+						<input type="submit" name="submit" value="Submit">
+				</form> 
+
+		<!--Button-->
+				<button click="javascriptfunction">Click Me</button>
+
+		<!--Image-->
+				<br> <img src="C:\Users\klcyn\Pictures\this.jpg" alt="This">
+				<div style="margin-top:500px"></div></p><br>
+	
+		<!--Java???-->
+				<h1>JS Arithmetic</h1>
+				<p id="demo"></p>
+
+<script>
+var x = 10;
+x *= 50;
+document.getElementById("demo").innerHTML = x;
+</script>
+
+	<!--String Operators and rules-->
+	<h1>JavaScript String Operators</h1>
+
+<p>All conditional operators can be used on both numbers and strings.
+	JavaScript has 8 Datatypes
+	<ol>
+<li> String</li>
+<li> Number</li>
+<li> Bigint</li>
+<li> Boolean</li>
+<li> Undefined</li>
+<li> Null</li>
+<li> Symbol</li>
+<li> Object</li>
+</p>
+
+<p id="demo"></p>
+
+<script>
+let text1 = "A";
+let text2 = "B";
+let result = text1 < text2;
+document.getElementById("demo").innerHTML = "Is A less than B? " + result;
+</script>
+
 </body>
-</html>s
+</html> 

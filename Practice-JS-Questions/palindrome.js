@@ -18,4 +18,6 @@ palidromeCheck(insertARGUMENT)
 //Expected output of this function is BOOLEAN (either true or false) and will be returned as a string:
 //"This string is NOT a palindrome" or "This string is a palidrome"
 
-//option to do either return or console.log, but it has to return expected result. 
+//option to do either return or console.log, but it has to return expected result.
+
+//small change for pull (disregard)

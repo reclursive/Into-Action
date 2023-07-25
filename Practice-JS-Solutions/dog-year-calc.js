@@ -1,95 +1,38 @@
-//conditionals (NOT MATH)
-
-//if it's sunny- i'll wear sunscreen. If it's rainy- I'll bring my umbrella.
-//otherwise - I'll wear my PJs <----
-
-//
-
-// if sunshine true status = "ill"
-
-const dogAge = (8) => {
-  let ageAdjust = "";
-
-  if (dogAge === >2) {
- ageAdjust = (2 * 10.5);
-  } else if (sunshine === false) {
- ageAdjust = "I'll bring an umbrella";
-  } else {
- ageAdjust = "I'll wear my PJss";
-  }
-};
-
-// checkStatus(true)
-
-const greeting = (formality, timeDay) => {
-  if (
-    (formality === "job fair" ||
-      formality === "interview" ||
-      formality === "meeting professor") &&
-    timeDay === "morning"
-  ) {
-    console.log("Good morning");
-  } else if (formality === "friends" && timeDay === "afternoon") {
-    console.log("what's up");
-  } else if (formality === "interview" && timeDay === "evening") {
-    console.log("Good evening");
-  } else {
-    console.log("none of the above");
-  }
-};
-
-greeting("job fair", "afternoon");
-
-// checkStatus(false)
-
-// checkStatus("gloomy")
-
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 //How old is my dog in human years
 
-const dogAgeCalculator = (8) => {
-  if (dogAge === 
-
-  )
-};
-//struggling big time. don't think i have enough experience w/ conditionals to manage this.
+//const dogAgeCalculator = (dogAge) => {
+//the following will be evaluating whatever NUMBER is passed as an argument
+// for DOG AGE
+//if statements, you might have to account for puppies/new borns (edge case)
+// within one if or else: subtraction will be involved to account
+//for those 2 years  with different human years added and the
+//remainder is accounted for and added
 
 //Invocation of function:
 
 //Expected input is DOGS AGE aka our argument
-dogAgeCalculator(insertARGUMENT);
+//dogAgeCalculator(insertARGUMENT);
 
 //Expected output of this function is HUMAN YEARS and should look like this:
 // (STRING) "Your dog is {num} years in human"
 
 //option to do either return or console.log, but it has to return expected result.
 
-//How old is my dog in human years
 
-//~~~~~~~~~~~~~~~~~~~~
-const myAge = 25
-//this is my age as a number
+//This is not allowing my use of comparison operators or at least reflects a Problem in my VS code debug terminal
+//The terminal's not allowing me to log near anything without an error. I think I'm using it incorrectly 
+//google searches are pulling extensions. 
+//Did I miss downloading an extension I need to console.log in terminal?
+//I will return to code academy for now but I feel like I didn't grasp or notate the last learning sesh well 
 
-var earlyYears = 2
-//used var so that this is able to change, the first two years of a dogs life count as 10.5 years
+const dogAgeCalculator = (8) => {
+if (dogAge === 2) {
+    console.log(dogAge * 15);
+} else if (dogAge > 2) {
+    console.log(dogAge * 9);
+ }
+ else (8){
+  console.log('falsy')
+ }
+};
 
-earlyYears = (2 * 10.5)
-console.log(earlyYears)
-
-let laterYears = myAge - 2;
-//myAge minus 2 due to accounting for the first two years
-
-laterYears = (23 * 4)
-
-//calculating dog years by later years
-//according to online conversion, i should be 113, not 92. did not print early and later
-
-//YAY!! 
-var myAgeInDogYears = (earlyYears + laterYears)
-
-'Kerstin Cynkar'.toLowerCase();
-var myName = 'Kerstin Cynkar'
-//my name stored into variable with all lowercase
-console.log ('My name is ' + myName + '. I am ' + myAge + ' years old in human years which is ' + myAgeInDogYears + ' years old in dog years.')
-//string using the above declared variables

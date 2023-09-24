@@ -7,7 +7,7 @@ const palidromeCheck = (taco) => {
 
     //if statements, you have more than one edge cases for this
     // you will need built in functions.
-
+    
 }
 
 //Invocation of function:

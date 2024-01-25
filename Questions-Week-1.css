@@ -1,12 +1,5 @@
-
 body {
-background-image: url("media/POS.png");
-}
-
-.bookList {
-    color: midnightblue;
-}
-
-#specialListItem {
-    color: paleturquoise;
-}
+    background-image: url("download.jpg"), url("download.jpg");
+    background-repeat: no-repeat;
+    background-color: #445748;
+  }
